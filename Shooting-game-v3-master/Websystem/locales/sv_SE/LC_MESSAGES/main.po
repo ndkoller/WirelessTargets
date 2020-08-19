@@ -1,0 +1,524 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2020-05-23 15:50+0200\n"
+"PO-Revision-Date: 2020-05-23 16:08+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv_SE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-Basepath: ../../Web\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: activegame.php\n"
+"X-Poedit-SearchPath-1: batstatus.php\n"
+"X-Poedit-SearchPath-2: ean.php\n"
+"X-Poedit-SearchPath-3: games.php\n"
+"X-Poedit-SearchPath-4: getbatstatus.php\n"
+"X-Poedit-SearchPath-5: highscore.php\n"
+"X-Poedit-SearchPath-6: i18n_setup.php\n"
+"X-Poedit-SearchPath-7: index.php\n"
+"X-Poedit-SearchPath-8: quickdone.php\n"
+"X-Poedit-SearchPath-9: rapiddone.php\n"
+"X-Poedit-SearchPath-10: resultsquick.php\n"
+"X-Poedit-SearchPath-11: resultsrapid.php\n"
+"X-Poedit-SearchPath-12: resultstimed.php\n"
+"X-Poedit-SearchPath-13: runquick.php\n"
+"X-Poedit-SearchPath-14: runrapid.php\n"
+"X-Poedit-SearchPath-15: runtimed.php\n"
+"X-Poedit-SearchPath-16: selectplayers.php\n"
+"X-Poedit-SearchPath-17: timeddone.php\n"
+"X-Poedit-SearchPath-18: admin\n"
+
+#: activegame.php:25 activegame.php:65
+msgid "Loading game"
+msgstr "Laddar spel"
+
+#: activegame.php:66
+msgid "Please hold.. Shuffle player."
+msgstr "Vänligen vänta… Slumpar spelare."
+
+#: activegame.php:109 activegame.php:140 batstatus.php:135 games.php:157
+#: getbatstatus.php:114 index.php:123 index.php:150 quickdone.php:212
+#: quickdone.php:239 rapiddone.php:209 rapiddone.php:236 resultsquick.php:113
+#: resultsrapid.php:114 resultstimed.php:109 runquick.php:130 runquick.php:161
+#: runrapid.php:128 runrapid.php:158 runtimed.php:130 runtimed.php:160
+#: selectplayers.php:137 selectplayers.php:162 selectplayers.php:192
+#: selectplayers.php:242 timeddone.php:216 timeddone.php:243
+msgid "Database error"
+msgstr "Databas fel"
+
+#: activegame.php:143
+msgid "Time for player:"
+msgstr "Tid för spelare:"
+
+#: admin/addgame.php:111 admin/index.php:23
+msgid "Add game"
+msgstr "Addera spel"
+
+#: admin/addgame.php:183 admin/addtarget.php:176 admin/games.php:85
+#: admin/targets.php:85
+msgid "Go home"
+msgstr "Gå hem"
+
+#: admin/addgame.php:189 admin/addgame.php:358 admin/addtarget.php:181
+#: admin/addtarget.php:213
+msgid "You need to fill out all fields"
+msgstr "Du behöver fylla i alla fält"
+
+#: admin/addgame.php:191 admin/addgame.php:360
+msgid "Amount, From and To can only be numbers"
+msgstr "Antal, Från och Till kan endast vara siffror"
+
+#: admin/addgame.php:194
+msgid "Game is updated to the system"
+msgstr "Spel är uppdaterat till systemet"
+
+#: admin/addgame.php:200 admin/addgame.php:371
+msgid "Game Name"
+msgstr "Spelnamn"
+
+#: admin/addgame.php:205 admin/addgame.php:376
+msgid "Type"
+msgstr "Typ"
+
+#: admin/addgame.php:209 admin/addgame.php:214 admin/addgame.php:219
+#: admin/addgame.php:226 admin/addgame.php:231 admin/addgame.php:236
+#: admin/addgame.php:380 admin/addgame.php:385 admin/addgame.php:390
+#: admin/addgame.php:396 admin/games.php:108
+msgid "Quicktime"
+msgstr "Quicktime"
+
+#: admin/addgame.php:210 admin/addgame.php:215 admin/addgame.php:220
+#: admin/addgame.php:227 admin/addgame.php:232 admin/addgame.php:237
+#: admin/addgame.php:381 admin/addgame.php:386 admin/addgame.php:391
+#: admin/addgame.php:397 admin/games.php:110 games.php:98
+msgid "Timed mode"
+msgstr "Tidsläge"
+
+#: admin/addgame.php:211 admin/addgame.php:216 admin/addgame.php:221
+#: admin/addgame.php:228 admin/addgame.php:233 admin/addgame.php:238
+#: admin/addgame.php:382 admin/addgame.php:387 admin/addgame.php:392
+#: admin/addgame.php:398 admin/games.php:112 games.php:98
+msgid "Rapidfire"
+msgstr "Rapidfire"
+
+#: admin/addgame.php:245 admin/addgame.php:404 admin/games.php:94
+msgid "Amount"
+msgstr "Antal"
+
+#: admin/addgame.php:251 admin/addgame.php:410
+msgid "Description"
+msgstr "Beskrivning"
+
+#: admin/addgame.php:255 admin/addgame.php:263 admin/addgame.php:270
+#: admin/addgame.php:277 admin/addgame.php:284 admin/addgame.php:291
+#: admin/addgame.php:300 admin/addgame.php:307 admin/addgame.php:314
+#: admin/addgame.php:321 admin/addgame.php:328 admin/addgame.php:414
+#: admin/addgame.php:422 admin/addgame.php:429 admin/addgame.php:436
+#: admin/addgame.php:443 admin/addgame.php:450 admin/addgame.php:458
+msgid "Hard"
+msgstr "Svårt"
+
+#: admin/addgame.php:259 admin/addgame.php:266 admin/addgame.php:273
+#: admin/addgame.php:280 admin/addgame.php:287 admin/addgame.php:296
+#: admin/addgame.php:303 admin/addgame.php:310 admin/addgame.php:317
+#: admin/addgame.php:324 admin/addgame.php:418 admin/addgame.php:425
+#: admin/addgame.php:432 admin/addgame.php:439 admin/addgame.php:446
+#: admin/addgame.php:454
+msgid "Easy"
+msgstr "Enkelt"
+
+#: admin/addgame.php:335 admin/addgame.php:464
+msgid "From"
+msgstr "Från"
+
+#: admin/addgame.php:341 admin/addgame.php:470
+msgid "To"
+msgstr "Till"
+
+#: admin/addgame.php:349
+msgid "Update Game"
+msgstr "Uppdatera Spel"
+
+#: admin/addgame.php:363
+msgid "Game is added to the system"
+msgstr "Spel är adderad till systemet"
+
+#: admin/addgame.php:477
+msgid "Add Game"
+msgstr "Addera spel"
+
+#: admin/addgame.php:483
+msgid "Info"
+msgstr "Info"
+
+#: admin/addgame.php:484
+msgid "Game Name: Is a short name of the game."
+msgstr "Spelnamn: Är ett kort namn på spelet."
+
+#: admin/addgame.php:485
+msgid "Type: What type of game it is."
+msgstr "Typ: Vilken typ av spel det är."
+
+#: admin/addgame.php:486
+msgid ""
+"Amount: How many hit or secounds for the game. Quicktime and rapidfire uses "
+"hits (example 10 rounds or hits) and timed mode uses secounds (60 secounds "
+"for one minute play)"
+msgstr ""
+"Antal: Hur många träffar eller sekunder för spelet. Quicktime och rapidfire "
+"använder träffar (exempel 10 rundor eller träffar) och tidsläge använder "
+"sekunder (60 sekunder för en minuts spelande)"
+
+#: admin/addgame.php:487
+msgid "Description: A longer info about the game."
+msgstr "Beskrivning: En beskrivning om spelet."
+
+#: admin/addgame.php:488
+msgid "Hard: How hard is the game to play."
+msgstr "Svårighet: Hur svårt spelet är att spela."
+
+#: admin/addgame.php:489
+msgid ""
+"From: From how many players (Example 1 if it possible to play without any "
+"other players)"
+msgstr ""
+"Från: Från hur många spelare (Exempel 1 om det är möjligt att spela utan "
+"motståndare)"
+
+#: admin/addgame.php:490
+msgid "To: How many max players you can be in this game."
+msgstr "Till: Hur många max antal spelare som kan spela samtidigt."
+
+#: admin/addtarget.php:104 admin/index.php:23
+msgid "Add target"
+msgstr "Lägg till måltavla"
+
+#: admin/addtarget.php:183 admin/addtarget.php:215
+msgid "Target ID and Send ID can only be numbers"
+msgstr "Måltavlans ID och Skicka ID kan endast vara nummer"
+
+#: admin/addtarget.php:186
+msgid "Target is updated to the system"
+msgstr "Måltavlan är uppdaterad i systemet"
+
+#: admin/addtarget.php:191 admin/addtarget.php:226
+msgid "Target Name"
+msgstr "Måltavlans namn"
+
+#: admin/addtarget.php:195 admin/addtarget.php:230 admin/targets.php:94
+msgid "Target ID"
+msgstr "Måltavlans ID"
+
+#: admin/addtarget.php:199 admin/addtarget.php:234 admin/targets.php:95
+msgid "Send ID"
+msgstr "Skicka ID"
+
+#: admin/addtarget.php:205
+msgid "Update Target"
+msgstr "Uppdatera Måltavla"
+
+#: admin/addtarget.php:218
+msgid "Target is added to the system"
+msgstr "Måltavlan är tillagd i systemet"
+
+#: admin/addtarget.php:239
+msgid "Add Target"
+msgstr "Lägg till Måltavla"
+
+#: admin/games.php:45 admin/index.php:23
+msgid "Games"
+msgstr "Spel"
+
+#: admin/games.php:88
+msgid "Do you want to delete game"
+msgstr "Vill du radera spelet"
+
+#: admin/games.php:89 admin/targets.php:89
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/games.php:89 admin/targets.php:89
+msgid "No"
+msgstr "Nej"
+
+#: admin/games.php:93 admin/targets.php:93
+msgid "Name"
+msgstr "Namn"
+
+#: admin/games.php:95
+msgid "Gametype"
+msgstr "Speltyp"
+
+#: admin/games.php:96 admin/targets.php:96 batstatus.php:86 ean.php:281
+#: highscore.php:123 quickdone.php:162 rapiddone.php:160 timeddone.php:162
+msgid "Menu"
+msgstr "Meny"
+
+#: admin/games.php:114 admin/targets.php:107
+msgid "Edit"
+msgstr "Redigera"
+
+#: admin/games.php:114 admin/targets.php:107
+msgid "Delete"
+msgstr "Radera"
+
+#: admin/index.php:20
+msgid "Admin"
+msgstr "Admin"
+
+#: admin/index.php:23 admin/targets.php:45
+msgid "Targets"
+msgstr "Måltavlor"
+
+#: admin/targets.php:88
+msgid "Do you want to delete target"
+msgstr "Vill du radera måltavlan"
+
+#: batstatus.php:24 games.php:49 getbatstatus.php:67
+msgid "Battery status"
+msgstr "Batteri status"
+
+#: batstatus.php:63
+msgid "Battery status for targets"
+msgstr "Batteristatus för måltavlorna"
+
+#: batstatus.php:75
+msgid "Volt"
+msgstr "Volt"
+
+#: batstatus.php:78
+msgid "Name on target:"
+msgstr "Namn på måltavla:"
+
+#: batstatus.php:87 ean.php:282 highscore.php:124
+msgid "Back"
+msgstr "Tillbaka"
+
+#: ean.php:83
+msgid "Game History"
+msgstr "Spelhistorik"
+
+#: ean.php:122 rapiddone.php:125 runquick.php:79 runrapid.php:77
+#: runtimed.php:79
+msgid "Results for the game"
+msgstr "Resultat för spelet"
+
+#: ean.php:142 quickdone.php:144
+msgid "Best results"
+msgstr "Bästa resultatet"
+
+#: ean.php:146 ean.php:170 ean.php:193 ean.php:222 ean.php:243 ean.php:266
+#: quickdone.php:148 rapiddone.php:148 runquick.php:166 runquick.php:169
+#: runrapid.php:162 runtimed.php:164 timeddone.php:148
+msgid "Played"
+msgstr "Spelad"
+
+#: ean.php:148 ean.php:224 highscore.php:82 quickdone.php:151 runquick.php:166
+#: runquick.php:169
+msgid "Round"
+msgstr "Omgång"
+
+#: ean.php:148 ean.php:224 highscore.php:82 quickdone.php:151 runquick.php:166
+#: runquick.php:169
+msgid "of"
+msgstr "av"
+
+#: ean.php:148 ean.php:172 ean.php:195 ean.php:224 ean.php:245 ean.php:268
+#: highscore.php:82 highscore.php:97 highscore.php:112 quickdone.php:151
+#: rapiddone.php:151 runquick.php:166 runquick.php:169 runrapid.php:162
+#: timeddone.php:151
+msgid "secounds"
+msgstr "sekunder"
+
+#: ean.php:152
+msgid "Winner:"
+msgstr "Vinnare:"
+
+#: ean.php:166 ean.php:189 quickdone.php:158 rapiddone.php:144
+#: rapiddone.php:156 timeddone.php:144 timeddone.php:158
+msgid "Winner"
+msgstr "Vinnare"
+
+#: ean.php:172 ean.php:195 ean.php:245 ean.php:268 highscore.php:97
+#: highscore.php:112
+msgid "hits on"
+msgstr "träffar på"
+
+#: ean.php:201
+msgid "Best results for player"
+msgstr "Bästa resultat för spelare"
+
+#: ean.php:224 ean.php:245 ean.php:268
+msgid "in game"
+msgstr "i spelet"
+
+#: games.php:22
+msgid "Select game"
+msgstr "Välj spel"
+
+#: games.php:50 highscore.php:25
+msgid "Highscore"
+msgstr "Highscore"
+
+#: games.php:98
+msgid "Quickdraw"
+msgstr "Quickdraw"
+
+#: games.php:107 selectplayers.php:88
+msgid "Play"
+msgstr "Spela"
+
+#: getbatstatus.php:27
+msgid "Checking Battery status"
+msgstr "Kollar batteristatus"
+
+#: getbatstatus.php:68
+msgid "Please hold... Checking the battery status."
+msgstr "Håll ut… Kollar batteristatus."
+
+#: highscore.php:69
+msgid "Highscore for game"
+msgstr "Highscore för spel"
+
+#: index.php:28
+msgid "Setting up"
+msgstr "Ställer in"
+
+#: index.php:66
+msgid "Setting up the game"
+msgstr "Ställer in spelet"
+
+#: index.php:68
+msgid "Confirm targets"
+msgstr "Bekräftar måltavlor"
+
+#: index.php:127 index.php:131 index.php:135
+msgid "Targets Confirmed"
+msgstr "Måltavlor bekräftade"
+
+#: index.php:127
+msgid "Testing communication"
+msgstr "Testar kommunikation"
+
+#: index.php:131
+msgid "Communication problem. Trying again."
+msgstr "Kommunikations problem. Försöker igen."
+
+#: index.php:135
+msgid "Communication Confirmed"
+msgstr "Kommunikation godkännd"
+
+#: quickdone.php:86 rapiddone.php:86 timeddone.php:86
+msgid "Game done"
+msgstr "Spelet klart"
+
+#: quickdone.php:125 timeddone.php:125
+msgid "Results for game"
+msgstr "Resultat för spelet"
+
+#: quickdone.php:163 rapiddone.php:161 timeddone.php:163
+msgid "Exit"
+msgstr "Avsluta"
+
+#: quickdone.php:164 timeddone.php:164
+msgid "Print out"
+msgstr "Skriver ut"
+
+#: quickdone.php:242
+msgid ""
+"Starting printing, Wait for the print to be done before you exit the game."
+msgstr ""
+"Skriver ut, vänta för att utskriften ska slutföras innan du kan avsluta "
+"spelet."
+
+#: rapiddone.php:151 runrapid.php:162 runtimed.php:164 timeddone.php:151
+msgid "on"
+msgstr "på"
+
+#: rapiddone.php:151 runtimed.php:164 timeddone.php:151
+msgid "hits"
+msgstr "träffar"
+
+#: rapiddone.php:162
+msgid "Print"
+msgstr "Skriv ut"
+
+#: rapiddone.php:239
+msgid "Starting printing, let the print be done before you exit the game."
+msgstr "Börjar utskrift, låt utskriften slutföras innan du avslutar spelet."
+
+#: resultsquick.php:24 resultsrapid.php:23 resultstimed.php:23
+msgid "Calculate winner"
+msgstr "Räknar ut vinnare"
+
+#: resultsquick.php:64 resultsrapid.php:63 resultstimed.php:63
+msgid "Creating results"
+msgstr "Skapar resultat"
+
+#: resultsquick.php:65 resultsrapid.php:64 resultstimed.php:64
+msgid "Please hold... Calculate winner."
+msgstr "Vänligen vänta… Räknar ut vinnare."
+
+#: runquick.php:40 runrapid.php:39 runtimed.php:40
+msgid "Playing"
+msgstr "Spelar"
+
+#: runrapid.php:162
+msgid "hits."
+msgstr "träffar."
+
+#: runtimed.php:164
+msgid "secounds."
+msgstr "sekunder."
+
+#: selectplayers.php:31
+msgid "Select players"
+msgstr "Välj spelare"
+
+#: selectplayers.php:70
+msgid "Add players"
+msgstr "Lägg till spelare"
+
+#: selectplayers.php:75 selectplayers.php:203
+msgid "Avalible"
+msgstr "Ledig"
+
+#: selectplayers.php:76 selectplayers.php:198
+msgid "No player"
+msgstr "Inga spelare"
+
+#: selectplayers.php:78
+msgid "Add player"
+msgstr "Lägg till spelare"
+
+#: selectplayers.php:79
+msgid "Remove player"
+msgstr "Radera spelare"
+
+#: selectplayers.php:87
+msgid "Options"
+msgstr "Alternativ"
+
+#: selectplayers.php:89
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: selectplayers.php:164
+msgid "You need to have"
+msgstr "Du behöver ha"
+
+#: selectplayers.php:164
+msgid "players to play this game."
+msgstr "spelare för att spela detta spel."
+
+#: selectplayers.php:253
+msgid "Saved"
+msgstr "Sparad"
+
+#: timeddone.php:246
+msgid "Starting printing, let the print finish before you exit the game."
+msgstr "Startar utskrift, låt skrivaren slutföra innan du avslutar spelet."
