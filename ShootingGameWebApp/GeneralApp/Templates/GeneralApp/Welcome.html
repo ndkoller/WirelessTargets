@@ -2,9 +2,20 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Shooting Game</title>
+    <h1>Shooting Game Home Page</h1>
+    <p>A target shooting game for physical projectiles across long distances.</p>
 </head>
 <body>
-$END$
+<p>Total number of game types: {{gameTypes}}<p>
+
+<h2>Game Types</h2>
+<ul>
+    {% for gameType in gameTypes %}
+    <li>
+        <a HREF="{% url 'detail' gameType.id %}">{{gameType.name}}</a>
+    </li>
+    {% endfor %}
+</ul>
 </body>
 </html>

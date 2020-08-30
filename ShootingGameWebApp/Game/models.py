@@ -12,7 +12,7 @@ class Player(models.Model):
 
 class GameType(models.Model):
     name = models.CharField(max_length=200)
-    duration = models.TimeField(default='00:05:00')
+    duration = models.IntegerField(default='300')
     numTargets = models.IntegerField(default=1)
     modifiedBy = models.CharField(max_length=50)
     modifiedDate = models.DateTimeField(default=datetime.now())
