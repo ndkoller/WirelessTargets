@@ -329,12 +329,12 @@ while True:
                 if gtype == "1":
                     print ("Quickdraw")
                     # We need to start quickdraw. First wait for active player
-                    # Count total players
+                    # Count total Players
                     ocurs = db.cursor()
                     sql = "SELECT * FROM activeplayers"
                     atotrow = ocurs.execute(sql)
                     miresults = ocurs.fetchall()
-                    atotrow = ocurs.rowcount #Now we know total players
+                    atotrow = ocurs.rowcount #Now we know total Players
                     checkplayer = 1
                     while checkplayer == 1:
                         db.commit()
@@ -396,7 +396,7 @@ while True:
                                             if roundnow < gamount:
                                                 roundnow = roundnow + 1
                     else:
-                        # No more players lets mark as done.
+                        # No more Players lets mark as done.
                         curi = db.cursor()
                         savesql = "UPDATE activegame SET isdone = %s, beginplay = %s WHERE id =%s"
                         val = ("1", "0", actid)
@@ -408,12 +408,12 @@ while True:
                 if gtype == "2":
                     print ("Timed mode")
                     # We need to start quickdraw. First wait for active player
-                    # Count total players
+                    # Count total Players
                     ocurs = db.cursor()
                     sql = "SELECT * FROM activeplayers"
                     atotrow = ocurs.execute(sql)
                     miresults = cursor.fetchall()
-                    atotrow = ocurs.rowcount #Now we know total players
+                    atotrow = ocurs.rowcount #Now we know total Players
                     checkplayer = 1
                     while checkplayer == 1:
                         db.commit()
@@ -472,7 +472,7 @@ while True:
                                             mycursor.execute(sql, val)
                                             db.commit()
                     else:
-                        # No more players lets mark as done.
+                        # No more Players lets mark as done.
                         curi = db.cursor()
                         savesql = "UPDATE activegame SET isdone = %s, beginplay = %s WHERE id =%s"
                         val = ("1", "0", actid)
@@ -482,12 +482,12 @@ while True:
                 if gtype == "3":
                     print ("Rapidfire")
                     # We need to start quickdraw. First wait for active player
-                    # Count total players
+                    # Count total Players
                     ocurs = db.cursor()
                     sql = "SELECT * FROM activeplayers"
                     atotrow = ocurs.execute(sql)
                     miresults = cursor.fetchall()
-                    atotrow = ocurs.rowcount #Now we know total players
+                    atotrow = ocurs.rowcount #Now we know total Players
                     checkplayer = 1
                     while checkplayer == 1:
                         db.commit()
@@ -545,7 +545,7 @@ while True:
                                             mycursor.execute(sql, val)
                                             db.commit()
                     else:
-                        # No more players lets mark as done.
+                        # No more Players lets mark as done.
                         curi = db.cursor()
                         savesql = "UPDATE activegame SET isdone = %s, beginplay = %s WHERE id =%s"
                         val = ("1", "0", actid)

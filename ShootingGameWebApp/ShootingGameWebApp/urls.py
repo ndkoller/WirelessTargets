@@ -17,10 +17,14 @@ from django.contrib import admin
 from django.urls import path
 
 from GeneralApp.views import welcome, date, about
+from Game.views import GameTypeDetails
+from Players.views import PlayerInfoDetails
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',welcome),
-    path('date',date),
-    path('about',about)
+    path('', welcome, name="home"),
+    path('date', date),
+    path('about', about),
+    path('Game/<int:pid>', GameTypeDetails, name="GameTypeDetail"),
+    path('Players/<int:pid>', PlayerInfoDetails, name="PlayerDetail")
 ]

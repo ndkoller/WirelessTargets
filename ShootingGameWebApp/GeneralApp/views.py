@@ -1,10 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from datetime import datetime
+from Game.models import GameType, Player
 
 
 def welcome(request):
-    return HttpResponse("Welcome to the Shooting Game.")
+    return render(request, "GeneralApp/Welcome.html",
+                  {"gameTypes": GameType.objects.all(), "players": Player.objects.all()})
 
 
 def date(request):

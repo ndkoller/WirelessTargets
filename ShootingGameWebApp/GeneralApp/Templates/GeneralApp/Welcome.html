@@ -13,9 +13,19 @@
 <ul>
     {% for gameType in gameTypes %}
     <li>
-        <a HREF="{% url 'detail' gameType.id %}">{{gameType.name}}</a>
+        <a HREF="{% url 'GameTypeDetail' gameType.id %}">{{gameType.name}}</a>
     </li>
     {% endfor %}
 </ul>
+<h2>Players</h2>
+<ul>
+    {% for player in players %}
+    <li>
+        <a HREF="{% url 'PlayerDetail' player.id %}">{{player.name}}</a>
+    </li>
+    {% endfor %}
+</ul>
+</body>
+
 </body>
 </html>

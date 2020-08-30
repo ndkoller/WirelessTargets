@@ -19,7 +19,7 @@ class GameType(models.Model):
 
 
 # Need this to start a particular game
-# One game can have many players
+# One game can have many Players
 class Game(models.Model):
     name = models.CharField(max_length=200, default='Basic Game')
     playerId = models.ForeignKey(Player, on_delete=models.CASCADE)

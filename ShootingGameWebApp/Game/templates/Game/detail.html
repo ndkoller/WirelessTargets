@@ -6,6 +6,12 @@
 </head>
 <body>
 <h1>{{gameType.name}}</h1>
-<p>This game type has <strong>{{gameType.numTargets}}</strong> and lasts for {{gameType.duration}}</p>
+<p>
+    This game type has <strong>{{gameType.numTargets}}</strong> targets
+    and lasts for <strong>{{gameTime|safe}}</strong>.
+</p>
+
+<p> <a HREF="{% url 'home' %}">Home</a></p>
+
 </body>
 </html>

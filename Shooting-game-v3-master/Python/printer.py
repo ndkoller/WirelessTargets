@@ -75,13 +75,13 @@ while True:
             printer.feed(1)
             if activegame == 1:
                 #It's an active game so lets print that results. Then we don't need to check the gamecode.
-                #Lets check the active players
+                #Lets check the active Players
                 ocurs = db.cursor()
                 sql = "SELECT * FROM activeplayers"
                 atotrow = ocurs.execute(sql)
                 results = ocurs.fetchall()
                 atotrow = ocurs.rowcount
-                #We need now to loop thru the players to print results.
+                #We need now to loop thru the Players to print results.
                 for row in results:
                     playid = row[0]
                     playname = row[1]
@@ -160,13 +160,13 @@ while True:
             printer.feed(1)
             if activegame == 1:
                 #It's an active game so lets print that results. Then we don't need to check the gamecode.
-                #Lets check the active players
+                #Lets check the active Players
                 ocurs = db.cursor()
                 sql = "SELECT * FROM activeplayers"
                 atotrow = ocurs.execute(sql)
                 results = ocurs.fetchall()
                 atotrow = ocurs.rowcount
-                #We need now to loop thru the players to print results.
+                #We need now to loop thru the Players to print results.
                 for row in results:
                     playid = row[0]
                     playname = row[1]
@@ -249,13 +249,13 @@ while True:
             printer.feed(1)
             if activegame == "1":
                 #It's an active game so lets print that results. Then we don't need to check the gamecode.
-                #Lets check the active players
+                #Lets check the active Players
                 ocurs = db.cursor()
                 sql = "SELECT * FROM activeplayers"
                 atotrow = ocurs.execute(sql)
                 results = ocurs.fetchall()
                 atotrow = ocurs.rowcount
-                #We need now to loop thru the players to print results.
+                #We need now to loop thru the Players to print results.
                 for row in results:
                     playid = row[0]
                     playname = row[1]
