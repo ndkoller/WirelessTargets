@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Shooting Game</title>
-    <h1>Shooting Game Home Page</h1>
-    <p>A target shooting game for physical projectiles across long distances.</p>
-</head>
-<body>
-<p>Total number of game types: {{gameTypes}}<p>
+{% extends "base.html" %}
+{% load static %}
+{% block title %}Welcome!{% endblock %}
 
+{% block content %}
+<h1>Shooting Game Home Page</h1>
+<p>A target shooting game for physical projectiles across long distances.</p>
+<p><img src="{% static 'GeneralApp/BullseyeMeme.jpg' %}" width="500px"></p>
 <h2>Game Types</h2>
 <ul>
     {% for gameType in gameTypes %}
@@ -25,7 +22,4 @@
     </li>
     {% endfor %}
 </ul>
-</body>
-
-</body>
-</html>
+{% endblock %}
