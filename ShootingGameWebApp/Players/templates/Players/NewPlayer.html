@@ -1,14 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Add New Player</title>
-</head>
-<body>
-<h1></h1>
-<form>
-    <Label for="name"> </Label><br>
-    <input type="Text" id="name">
+{% extends "base.html" %}
+{% block title %}Add New Player{% endblock %}
+
+{% block content %}
+<h1>Enter New Player info</h1>
+<form method="POST">
+    <table>
+        {{form}}
+    </table>
+    {% csrf_token %}
+    <button type="submit">Add Player</button>
 </form>
-</body>
-</html>
+
+{% endblock %}

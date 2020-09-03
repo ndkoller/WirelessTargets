@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Game Type: {{gameType.name}}</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}Game Type: {{gameType.name}}{% endblock %}
+
+{% block content %}
+
 <h1>{{gameType.name}}</h1>
 <p>
     This game type has <strong>{{gameType.numTargets}}</strong> targets
@@ -13,5 +11,4 @@
 
 <p> <a HREF="{% url 'home' %}">Home</a></p>
 
-</body>
-</html>
+{% endblock %}
