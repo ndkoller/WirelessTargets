@@ -8,5 +8,10 @@ def GameTypeDetails(request, pid):
     return render(request, "Game/detail.html", {"gameType": gameType, "gameTime": duration(gameType)})
 
 
+def GameLaunch(request, pid):
+    gameType = get_object_or_404(GameType, pk=pid)
+    return render(request, "Launch/GameLaunch.html", {"gameType": gameType, "gameTime": duration(gameType)})
+
+
 def duration(game):
     return timedelta(seconds=game.duration)
