@@ -4,12 +4,20 @@
 {% block content %}
 
 <h1>{{gameType.name}}</h1>
-<p>Player Dropdown Placeholder</p>
-
+<p>Player Dropdown Placeholder Currently details link</p>
+<ul>
+    {% for player in players %}
+    <li>
+        <a HREF="{% url 'PlayerDetail' player.id %}">{{player.name}}</a>
+    </li>
+    {% endfor %}
+</ul>
+<p>Added Players</p>
+<p>Blank section where added players to populate</p>
 <p>Timer Place Holder</p>
 <p>Targets hit out of total</p>
 
-
+<p>Start Game Button</p>
 
 
 {% endblock %}
